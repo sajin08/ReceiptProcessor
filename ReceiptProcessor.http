@@ -1,0 +1,11 @@
+@ReceiptProcessor_HostAddress = http://localhost:5182
+
+POST {{ReceiptProcessor_HostAddress}}/receipts/process/
+Accept: application/json
+
+###
+
+GET {{ReceiptProcessor_HostAddress}}/receipts/{id}/points/
+Accept: application/json
+
+###
